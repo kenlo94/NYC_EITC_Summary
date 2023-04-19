@@ -18,7 +18,7 @@ Upon careful inspection, I determined that the majority of the data was imported
 ![Screenshot](Images/columns.png)
 
 
-<p style="font-size: 48px;"><a href="https://app.powerbi.com/groups/me/reports/092e71ee-5fab-4bd1-80f4-5d1dde5522e0/ReportSection8c55e00850da3d5c2bf9" target="_blank">View the Dashboard on the web</a></p>
+<p style="font-size: 48px;"><a href="https://app.powerbi.com/view?r=eyJrIjoiZWUxZmJmNTUtM2VjMS00ZTRkLTlkYzItY2Q0NzAxNjMxMzg5IiwidCI6ImRiMTUyMWRlLTEwYTYtNGIzNC05MDJiLTc4NGNiMmEyNjM5OCIsImMiOjZ9" target="_blank">View the Dashboard on the web</a></p>
 
 
 ## Drawing Insights
