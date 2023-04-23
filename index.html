@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-07QV7C307D"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-07QV7C307D');
+    </script>
+    <meta charset="utf-8">
+    <title>Examining NYC's Earned Income Tax Credit: A 10-Year Overview</title>
+    <style>
+        #preview {
+            width: 50%;
+            margin: 0 auto;
+        }
+
+        p.has-line-data[data-line-start="15"] {
+            margin-top: 2em;
+        }
+
+        body {
+            font-size: 20px;
+        }
+
+        .my-hr {
+            margin-top: -1.25em !important;
+            margin-bottom: 0em !important;
+        }
+    </style>
+</head>
+
+<body id="preview">
+    <h1 class="code-line" data-line-start=0 data-line-end=1><a
+            id="Examining_NYCs_Earned_Income_Tax_Credit_A_10Year_Overview_0"></a>Examining NYC’s Earned Income Tax
+        Credit: A 10-Year Overview</h1>
+    <h2 class="code-line" data-line-start=2 data-line-end=3><a id="Resources_2"></a>Resources</h2>
+    <hr class="my-hr">
+    <p class="has-line-data" data-line-start="3" data-line-end="4">Data source:
+        Earned_Income_Tax_Credit__New_York_City_EITC__Claims__Full-Year_Resident_Totals__by_Size_of_Earned_Income.csv
+    </p>
+    <p class="has-line-data" data-line-start="5" data-line-end="6">Software: Microsoft Power BI Desktop 2.116.622.0</p>
+    <h2 class="code-line" data-line-start=7 data-line-end=8><a id="Project_Objective_7"></a>Project Objective</h2>
+    <hr class="my-hr">
+    <p class="code-line" data-line-start=8 data-line-end=9><a
+            id="Use_the_provided_csv_file_to_create_a_dashboard_to_tell_the_best_possible_data_driven_story_8"></a>Use
+        the provided csv file to create a dashboard to tell the best possible data driven story.</p>
+    <h2 class="code-line" data-line-start=10 data-line-end=11><a id="Processing_and_Visualization_10"></a>Processing and
+        Visualization</h2>
+    <hr class="my-hr">
+    <p class="has-line-data" data-line-start="11" data-line-end="12">After inspecting the raw csv file, I connected it
+        to Power BI as a text file.</p>
+    <p class="has-line-data" data-line-start="13" data-line-end="14"><img src="Images/connect.png" alt="Screenshot"></p>
+    <p class="has-line-data" data-line-start="15" data-line-end="16">Upon careful inspection, I determined that the
+        majority of the data was imported without any issues. However, I did need to perform some data manipulation,
+        including the proper categorization of several columns and the implementation of comma separators to enhance
+        readability.</p>
+    <p class="has-line-data" data-line-start="17" data-line-end="18"><img src="Images/columns.png" alt="Screenshot"></p>
+    <h1 class="code-line" data-line-start="32" data-line-end="33">View the Dashboard on the <a
+            href="https://app.powerbi.com/view?r=eyJrIjoiZWUxZmJmNTUtM2VjMS00ZTRkLTlkYzItY2Q0NzAxNjMxMzg5IiwidCI6ImRiMTUyMWRlLTEwYTYtNGIzNC05MDJiLTc4NGNiMmEyNjM5OCIsImMiOjZ9"
+            target="_blank">Web</a></h1>
+    <h2 class="code-line" data-line-start=23 data-line-end=24><a id="Drawing_Insights_23"></a>Drawing Insights</h2>
+    <hr class="my-hr">
+    <ol>
+        <li class="has-line-data" data-line-start="25" data-line-end="26">With the exception of a dip in 2008, the
+            overall trend indicates a steady rise in the total number of claims filed, the total credit amount claimed,
+            and the total average credit, from 727,814 claims and $64,737 total credit amount claimed in 2004 to 916,857
+            claims and $103,266 total credit amount claimed in 2014, with the total average credit increasing from 89 in
+            2004 to 113 in 2014. The dip observed in 2008 may be attributed to the global financial crisis that occurred
+            during that time. The crisis had a profound impact on both individuals and families, as well as the economy
+            at large.</li>
+        <li class="has-line-data" data-line-start="26" data-line-end="31">The report includes a slicer located in the
+            top right corner that enables users to select a year of interest. Once selected, the top three charts will
+            update accordingly to provide insight into the relationship between income level brackets and earned income
+            tax credit (EITC) claim data.
+            <ul>
+                <li class="has-line-data" data-line-start="27" data-line-end="28">The first chart, positioned on the
+                    left, displays the total number of claims versus income level brackets, with the $4,001-$8,000 and
+                    $8,001-$12,000 brackets generally showing the highest number of claims overall. One possible reason
+                    that these income level brackets generally show the highest number of claims overall is that these
+                    income levels may be the most common among eligible taxpayers in the population. Additionally, the
+                    Earned Income Tax Credit (EITC) is designed to provide assistance to low-to-moderate income working
+                    individuals and families, and those falling into these income level brackets may be more likely to
+                    qualify for the credit.</li>
+                <li class="has-line-data" data-line-start="28" data-line-end="29">The second chart, located in the
+                    center, showcases the total credit amount claimed versus income level bracket, with the
+                    $8,001-$12,000 and $12,001-$16,000 brackets generally displaying the highest total credit amount
+                    claimed. Similar to the first chart, these brackets are in the low-to-moderate income range where
+                    many individuals and families qualify for the earned income tax credit (EITC).</li>
+                <li class="has-line-data" data-line-start="29" data-line-end="31">Lastly, the third chart positioned on
+                    the right illustrates the total average credit versus income level bracket, with the $12,001-$16,000
+                    and $16,001-$20,000 brackets typically having the highest average credit. One possible reason is
+                    that households within these income ranges may have higher numbers of qualifying dependents or may
+                    have incurred higher expenses related to dependent care or work-related expenses, which can increase
+                    the credit amount. Additionally, households in these income ranges may be more likely to have access
+                    to tax preparation services that can help them maximize their credit eligibility.</li>
+            </ul>
+        </li>
+    </ol>
+    <hr>
+    <p class="has-line-data" data-line-start="32" data-line-end="33">Return to the <a
+            href="https://kenlo94.github.io/">Homepage</a></p>
+</body>
+
+</html>
